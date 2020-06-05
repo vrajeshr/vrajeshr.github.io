@@ -23,7 +23,7 @@ texture:
     linkedIn: in/vrajeshrana
 
 # Build settings
-theme: texture
+remote_theme: texture
 
 plugins:
   - jekyll-seo-tag
