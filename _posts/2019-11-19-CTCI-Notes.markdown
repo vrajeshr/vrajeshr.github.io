@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "CTCI Notes"
-description: Notes I took while reading Cracking the Coding Interview
-date:   2020-01-23
+description: Notes I took while reading Cracking the Coding Interview.
+date:   2019-11-19
 ---
 
 
@@ -11,7 +11,7 @@ Try to remember this pattern. When you have a recursive function that makes mult
 often (but not always) look like O( branchesdepth), where branches is the number of times each recursive
 call branches. In this case, this gives us O (2N)
 
-![this](../assets/img/BigO.png)
+![this](../assets/img/CTCI-Notes/BigO.png)
 
 # Hashmaps 
 
@@ -192,7 +192,7 @@ Every vertex (or node) stores a list of adjacent vertices
 
 A NxN matrix where true values at matrix[i][j] indicates an edge from node i and node j 
 
-![Example](../assets/img/adjmatrix.png)
+![Example](../assets/img/CTCI-Notes/adjmatrix.png)
 
 ## Graph search
 	
@@ -340,14 +340,14 @@ If we want to find the shortest path between 2 nodes, BFS is generally better.
 Arithmetic vs Logical right shift
 - Arithmetic basically divides by 2.
   
-    ![this](../assets/img/ArithmeticShift.png)
+    ![this](../assets/img/CTCI-Notes/ArithmeticShift.png)
     - We shift the valuse to teh right and fill in teh new bit with the sign bit.
     - This (roughly) divides by 2. 
     - Indicated by >>
         
 - Logical right shift does 
 
-    ![this](../assets/img/LogicalRightShift.png)
+    ![this](../assets/img/CTCI-Notes/LogicalRightShift.png)
     - We shift the bits and put a 0 in the most significant bit
     - indicated with a >>> operator
 
