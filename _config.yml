@@ -1,0 +1,30 @@
+title: "Vrajesh Rana"
+author: vrajeshr
+email: vrajesh.r@outlook.com
+description: > 
+
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title
+texture:
+  title: Vrajesh Rana
+  tagline: Full-Stack Software Engineer
+  analytics_id: "UA-168650090-1"
+  date_format: "%b %-d, %Y"
+  showNav: true
+  style: black
+  navigation:
+    - title: Home
+      url: "/"
+    - title: Resume
+      url: "/resume"
+  social_links:
+    github: vrajeshr
+    linkedIn: in/vrajeshrana
+
+# Build settings
+theme: texture
+
+plugins:
+  - jekyll-seo-tag
