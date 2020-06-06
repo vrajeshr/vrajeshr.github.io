@@ -14,8 +14,10 @@ texture:
   showNav: true
   style: black
   navigation:
-    - title: Home
+    - title: Projects
       url: "/"
+    - title: Notes
+      url: "/notes"
     - title: Resume
       url: "/resume"
   social_links:
@@ -27,3 +29,7 @@ remote_theme: texture
 
 plugins:
   - jekyll-seo-tag
+
+collections:
+  notes:
+    output: true
