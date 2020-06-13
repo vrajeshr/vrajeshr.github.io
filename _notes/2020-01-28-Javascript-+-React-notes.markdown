@@ -2,7 +2,8 @@
 layout: post
 title:  "Javascript and React notes"
 description: Notes I took while learning Javascript and React for an upcoming project.
-date:   2020-01-28
+date: 2020-01-28
+categories : Javascript React Redux 
 ---
 
 # General JS

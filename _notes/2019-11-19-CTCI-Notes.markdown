@@ -2,7 +2,7 @@
 layout: post
 title:  "CTCI Notes"
 description: Notes I took while reading Cracking the Coding Interview.
-date:   2019-11-19
+date: 2019-11-19
 ---
 
 

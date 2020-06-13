@@ -2,6 +2,7 @@
 layout: post
 title:  "Hello World"
 description: inital post
+date: 2020-03-01
 ---
 
 Welcome to my website.
