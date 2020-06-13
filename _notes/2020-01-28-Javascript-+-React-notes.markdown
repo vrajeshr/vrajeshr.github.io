@@ -142,7 +142,7 @@ Unmounting
 ```javascript
 	<> //Or <React.Fragment>
 		<ChildA />
-		<ChildB />  //Doesn't work
+		<ChildB />  //Works
 	</>
 ```
 
