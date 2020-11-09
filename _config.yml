@@ -14,10 +14,12 @@ texture:
   showNav: true
   style: black
   navigation:
+    # - title: About Me
+    #   url: "/aboutme"
     - title: Projects
       url: "/"
-    - title: Notes
-      url: "/notes"
+    # - title: Notes
+    #   url: "/notes"
     - title: Resume
       url: "/resume"
   social_links:
