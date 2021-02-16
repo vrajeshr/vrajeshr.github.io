@@ -6,7 +6,7 @@ date: 2020-11-29
 categories : Node.JS  GithubAPI
 ---
 
-# [Project Link](https://github.com/vrajeshr/react-tic-tac-toe)
+# [Project Link](https://vrajeshr.github.io/react-tic-tac-toe/)
 
 Tic-Tac-Toe game done in React. Integrates with an API that response with player O's moves.
 
