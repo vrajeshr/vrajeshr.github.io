@@ -60,10 +60,13 @@ figcaption {
 }
 
 header {
-	// background-size: cover;
 	padding: 120px 0;
 	color: #fff;
 	overflow: hidden;
+
+	justify-content: center;
+	text-align: center;
+
 	h2 {
 		font-weight: normal;
 		margin-top: 5px;
@@ -77,6 +80,10 @@ header {
 		list-style-type: none;
 		padding: 0;
 		margin-top: 0;
+
+		display: flex;
+		justify-content: center;
+		
 		li {
 			color: #fff;
 			float: left;
@@ -155,8 +162,11 @@ header {
 }
 
 .container {
-	margin:0 150px;
-	max-width: 720px;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 
 	div.highlighter-rouge {
 		right: 150px;
@@ -221,6 +231,13 @@ header {
 	margin-bottom: 1.3em;
 }
 
+.post-link {
+	color: #add8e6  ;
+	font-size: 2rem;
+	margin-top:.5em;
+	margin-bottom: 1.3em;
+}
+
 .post-date {
 	color: $gray;
 	.icon-calendar {
@@ -258,13 +275,12 @@ header {
 }
 
 .posts, .post-container {
-	margin-top: 40px;  
+	margin: 40px 50px;  
+	max-width: 55%;
 }
 
 .post-meta {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	text-align: center;
 	a:hover {
 		border-bottom: none;
 	}

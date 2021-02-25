@@ -4,9 +4,8 @@ title:  "React Tic-Tac-Toe"
 description: Simple Tic-Tac-Toe game with a backend that responds with the next move
 date: 2020-11-29
 categories : Node.JS  GithubAPI
+link : https://vrajeshr.github.io/react-tic-tac-toe/
 ---
-
-# [Project Link](https://vrajeshr.github.io/react-tic-tac-toe/)
 
 Tic-Tac-Toe game done in React. Integrates with an API that response with player O's moves.
 

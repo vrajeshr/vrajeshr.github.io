@@ -4,9 +4,8 @@ title:  "Discord Bot"
 description: Simple, small and easy to make discord bot for sound bits
 date: 2020-05-17
 categories : Node.JS Discord.JS Discord
+link : https://github.com/vrajeshr/discord-bot
 ---
-
-# [Project Link](https://github.com/vrajeshr/discord-bot)
 
 This is a discord bot I made using the [discord.js](https://discord.js.org/#/) module for node.js.
 

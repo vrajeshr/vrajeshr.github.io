@@ -3,16 +3,17 @@ layout: post
 title:  "Honda Accord gas logger"
 description: A gas logging application written in Kotlin for my Honda Accord headunit.
 date: 2020-11-8
-categories : Kotlin Java RaspberryPi 
+categories : Kotlin Java RaspberryPi
+link : https://github.com/vrajeshr/accord-gas-logger
 ---
-
-# [Project Link](https://github.com/vrajeshr/accord-gas-logger)
 
 Thanks to the help of [this](https://forum.xda-developers.com/t/guide-how-to-enter-developer-mode-on-2017-honda-civic-and-now-root-install-apps.3621582/) forum thread, I was able to enable developer mode on my 2016 Honda Accord Stock head unit. I think this is awesome because it allows users to install custom applications, such as Spotify or Waze, directly onto the head unit without having to your phone. 
 
 This gave me an idea. I wanted a way to track the fuel consumption of my car, because according to Google, this is supposed to be my fuel economy in a normal scenario : 
 
-<img src="{{site.baseurl}}/assets/img/gasLogger/googlepic.png">
+{:refdef: style="text-align: center;"}
+![Accord MPG]({{site.baseurl}}/assets/img/gasLogger/googlepic.png)
+{: refdef}
 
 I wanted to put these claims to the test, so I made an app that will verify the statement.
 
@@ -27,6 +28,7 @@ With this information, I knew I could just append the information into a CSV fil
 I wanted a super simple design mainly because I wanted the app to perform well on a performance-limited head unit and it had to not interfere with the main functionality of the system.
 
 So here's what I came up with:
+
 
 <div style='position:relative; padding-bottom:calc(63.84% + 44px)'><iframe src='https://gfycat.com/ifr/SphericalOilyKoalabear' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
@@ -47,7 +49,10 @@ The ideal workflow I came up was with is this : As soon as I arrive at home, my 
 
 Here's some of the data I was able to derive from the Accord gas logger :
 
-<img src="{{site.baseurl}}/assets/img/gasLogger/excel.png">
+
+{:refdef: style="text-align: center;"}
+![Graph]({{site.baseurl}}/assets/img/gasLogger/excel.png)
+{: refdef}
 
 As you can see, the my MPG over about 2,000 miles was around 24mpg. I think this is pretty believable because I live in New Jersey, which inherently comes with doing mostly stop-and-go city driving. 
 
